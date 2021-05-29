@@ -1,0 +1,40 @@
+.clients {
+  padding: 80px 0;
+  background: #444444;
+}
+.clients .box {
+  background: #343434;
+  display: flex;
+  align-items: center;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: e-resize;
+}
+.clients .box .imgUser {
+  width: 500px;
+  height: 100%;
+}
+.clients .box .imgUser img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.clients .box .content {
+  color: white;
+  padding: 30px;
+}
+.clients .box .content .title {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.clients .box .content .job {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.clients .box .content .desc {
+  font-size: 16px;
+  margin-top: 18px;
+}

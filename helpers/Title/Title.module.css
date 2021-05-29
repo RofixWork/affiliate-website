@@ -1,0 +1,27 @@
+.titleContent {
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+.titleContent .title {
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 9px;
+}
+.titleContent .desc {
+  font-weight: 400;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 16px;
+  color: #ececec;
+}
+
+@media (max-width: 600px) {
+  .titleContent .title {
+    font-size: 30px;
+  }
+  .titleContent .desc {
+    width: 100%;
+    font-size: 14px;
+  }
+}

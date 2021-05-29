@@ -1,0 +1,49 @@
+.banner {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url("https://geniusdevs.com/themeforest/ponno/ponno-gradint/assets/img/04_header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.content {
+  color: white;
+}
+.content .title {
+  font-size: 70px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.content .desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 90%;
+}
+.content .btn {
+  padding: 8px 20px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 17px;
+  background: linear-gradient(to left, #485e93 0%, #7185b4 100%);
+  margin-top: 47px;
+}
+.imageBanner {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 960px) {
+  .content .title {
+    font-size: 45px;
+  }
+  .banner .imageBanner {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .content .title {
+    font-size: 45px;
+  }
+}

@@ -1,0 +1,30 @@
+.importantFeatures {
+  padding: 80px 0;
+  background-image: url("https://geniusdevs.com/themeforest/ponno/ponno-gradint/assets/img/04-bg-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.importantFeatures .content {
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.importantFeatures .content .title {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.importantFeatures .content .desc {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 14px;
+}
+
+@media (max-width: 600px) {
+  .importantFeatures .content {
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+  }
+}
