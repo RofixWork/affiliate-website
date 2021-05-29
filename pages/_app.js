@@ -3,10 +3,16 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import theme from "./theme";
 import "../styles/globals.css";
 
+import { createMuiTheme } from "@material-ui/core/styles";
 export default function MyApp(props) {
+  // Create a theme instance.
+  const theme = createMuiTheme({
+    typography: {
+      fontFamily: '"Montserrat", sans-serif',
+    },
+  });
   const { Component, pageProps } = props;
 
   React.useEffect(() => {

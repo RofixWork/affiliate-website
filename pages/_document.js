@@ -1,10 +1,16 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from "@material-ui/core/styles";
-import theme from "./theme";
 
+import { createMuiTheme } from "@material-ui/core/styles";
 export default class MyDocument extends Document {
   render() {
+    // Create a theme instance.
+    const theme = createMuiTheme({
+      typography: {
+        fontFamily: '"Montserrat", sans-serif',
+      },
+    });
     return (
       <Html lang="en">
         <Head>
